@@ -18,7 +18,6 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/tailwind.css',
     '@/assets/css/Style.css'
   ],
 
@@ -36,7 +35,10 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss'
   ],
-
+  tailwindcss: {
+    jit: true,
+    cssPath: '~/assets/css/tailwind.css',
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
