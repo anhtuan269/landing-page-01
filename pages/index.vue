@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+ <div class="page">
+    <div class="container  ">
     <div>
       <Logo />
       <h1 class="title">
@@ -25,10 +26,16 @@
       </div>
     </div>
   </div>
+ </div>
 </template>
 
 <script>
-export default {}
+
+
+export default {
+  components: {
+  }
+}
 </script>
 
 <style>
@@ -39,7 +46,6 @@ export default {}
 */
 .container {
   margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
