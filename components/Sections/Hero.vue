@@ -4,7 +4,7 @@
     <div
       class="max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto py-14"
     >
-      <div class="flex justify-between items-center mt-13">
+      <div class="flex justify-between items-center">
         <div class="block">
           <Heading />
           <CTA />

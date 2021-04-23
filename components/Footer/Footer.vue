@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black h-96">
     <div
-      class="max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto grid mt-9"
+      class="max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto grid pt-9"
     >
       <div class="grid grid-cols-3 justify-start gap-x-24">
         <div class="col-span-1">

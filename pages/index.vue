@@ -1,14 +1,18 @@
 <template>
  <div class="page">
     <Hero />
+    <About />
  </div>
 </template>
 
 <script>
+import About from '@/components/Sections/Tab.vue'
 import Hero from '@/components/Sections/Hero.vue'
+
 
 export default {
   components: {
+    About,
     Hero
   }
 }
