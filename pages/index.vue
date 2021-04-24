@@ -5,6 +5,7 @@
     <Benifit />
     <Benifit_2 />
     <Template />
+    <Feature />
     <Group />
  </div>
 </template>
@@ -13,6 +14,7 @@
 import About from '@/components/Sections/Tab.vue'
 import Benifit from '@/components/Sections/Benifit.vue'
 import Benifit_2 from '@/components/Sections/Benifit-2.vue'
+import Feature from '@/components/Sections/Feature.vue'
 import Group from '@/components/Sections/Group.vue'
 import Hero from '@/components/Sections/Hero.vue'
 import Template from '@/components/Sections/Template.vue'
@@ -23,6 +25,7 @@ export default {
     About,
     Benifit,
     Benifit_2,
+    Feature,
     Group,
     Hero,
     Template
