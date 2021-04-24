@@ -5,7 +5,7 @@
       class="max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto py-14"
     >
       <div class="flex justify-between items-center">
-        <div class="block">
+        <div class="block text-left">
           <Heading />
           <CTA />
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-left">
+  <div class="block">
       <h2 class="font-black text-5xl leading-60 mb-7">
           {{title}}
           <span class="bg-yellow-300 pl-3 pt-2">{{time}}</span>
@@ -26,6 +26,19 @@ export default {
             require: true,
             default: () => {
                 return "in seconds."
+            }
+        },
+         titl: {
+            type:String,
+            default: () => {
+                return ""
+            }
+        },
+        tim: {
+            type: String,
+            require: true,
+            default: () => {
+                return ""
             }
         },
         description : {

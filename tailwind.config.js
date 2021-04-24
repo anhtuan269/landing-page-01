@@ -37,8 +37,15 @@ module.exports = {
      extend: {
       margin: {
         '13':'3.125rem'
+      },
+      boxShadow: {
+        'card': '3px 3px 3px 3px rgba(0, 0, 0, 0, 0.3)'
+      },
+      margin: {
+        '18':'70px'
       }
-     }
+     },
+     
   },
   variants: {
     extend: {},

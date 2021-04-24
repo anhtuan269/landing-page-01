@@ -2,17 +2,20 @@
  <div class="page">
     <Hero />
     <About />
+    <Benifit />
  </div>
 </template>
 
 <script>
 import About from '@/components/Sections/Tab.vue'
+import Benifit from '@/components/Sections/Benifit.vue'
 import Hero from '@/components/Sections/Hero.vue'
 
 
 export default {
   components: {
     About,
+    Benifit,
     Hero
   }
 }
