@@ -3,12 +3,14 @@
     <Hero />
     <About />
     <Benifit />
+    <Benifit_2 />
  </div>
 </template>
 
 <script>
 import About from '@/components/Sections/Tab.vue'
 import Benifit from '@/components/Sections/Benifit.vue'
+import Benifit_2 from '@/components/Sections/Benifit-2.vue'
 import Hero from '@/components/Sections/Hero.vue'
 
 
@@ -16,6 +18,7 @@ export default {
   components: {
     About,
     Benifit,
+    Benifit_2,
     Hero
   }
 }

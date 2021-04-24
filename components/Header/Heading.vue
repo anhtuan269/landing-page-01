@@ -4,10 +4,12 @@
           {{title}}
           <span class="bg-yellow-300 pl-3 pt-2">{{time}}</span>
       </h2>
-      <h2 class="font-dark text-6xl leading-60 mb-7">
+     <div class="block relative -top-2" v-show="show" >
+          <h2 class="font-black text-5xl leading-60 mb-7">
           {{titl}}
-          <span class="bg-yellow-300 ">{{tim}}</span>
+          <span class="bg-yellow-300 pl-3 pt-2 ">{{tim}}</span>
       </h2>
+     </div>
       <p class="text-lg leading-6 font-normal">{{description}}</p>
   </div>
 </template>
@@ -31,14 +33,14 @@ export default {
          titl: {
             type:String,
             default: () => {
-                return ""
+                return null
             }
         },
         tim: {
             type: String,
             require: true,
             default: () => {
-                return ""
+                return null
             }
         },
         description : {
@@ -46,6 +48,12 @@ export default {
             require: true,
             default() {
                 return "Display Instagram Stories Widget on your website, that auto-syncs, and updates each time you add a photo in your active story. "
+            }
+        },
+        show: {
+            type:Boolean,
+            default() {
+                return false
             }
         }
 
