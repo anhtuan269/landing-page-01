@@ -1,6 +1,6 @@
 <template>
   <div class="mt-20 flex justify-center items-center">
-      <div class="card bg-gray-200 text-left p-4 mx-4" v-for="(card, index) in cards" :key="index">
+      <div class="card bg-gray-200 text-left p-4 mx-4 rounded-xl" v-for="(card, index) in cards" :key="index">
             <h3 class="mb-4 text-3xl font-semibold ">{{card.header}}</h3>
             <div class="flex items-center">
                 <div class="block">
@@ -8,7 +8,7 @@
                 </div>
                 <h4 class=" text-2xl font-black ml-4">{{card.title}}</h4>
             </div>
-            <div class="mt-3">
+            <div class="mt-3 w-10/12 ">
                 {{card.description}}
             </div>
       </div>

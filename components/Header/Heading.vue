@@ -1,16 +1,17 @@
 <template>
   <div class="block">
-      <h2 class="font-black text-5xl leading-60 mb-7">
+      <h2 class="font-black text-5xl leading-60 mb-6 ">
           {{title}}
-          <span class="bg-yellow-300 pl-3 pt-2">{{time}}</span>
+          <span v-show="spanShow" class="bg-yellow-300 pl-3 pt-2">{{time}}</span>
       </h2>
+      <h2  class="font-black text-5xl leading-60 relative -top-8 "> {{title_second}}</h2>
      <div class="block relative -top-2" v-show="show" >
-          <h2 class="font-black text-5xl leading-60 mb-7">
+          <h2 class="font-black text-5xl leading-60 ">
           {{titl}}
           <span class="bg-yellow-300 pl-3 pt-2 ">{{tim}}</span>
       </h2>
      </div>
-      <p class="text-lg leading-6 font-normal">{{description}}</p>
+      <p class="text-lg leading-6 font-normal ">{{description}}</p>
   </div>
 </template>
 
@@ -36,6 +37,12 @@ export default {
                 return null
             }
         },
+        title_second: {
+            type:String,
+            default: () => {
+                return null
+            }
+        },
         tim: {
             type: String,
             require: true,
@@ -54,6 +61,12 @@ export default {
             type:Boolean,
             default() {
                 return false
+            }
+        },
+        spanShow: {
+            type:Boolean,
+            default() {
+                return true
             }
         }
 
