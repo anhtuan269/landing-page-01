@@ -19,7 +19,7 @@
 export default {
     props: {
         cards: {
-            type: Object
+            type: Array
         }
     }
 

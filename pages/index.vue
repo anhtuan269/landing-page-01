@@ -7,6 +7,7 @@
     <Template />
     <Feature />
     <Feature_2 />
+    <Intergration />
     <Group />
  </div>
 </template>
@@ -19,6 +20,7 @@ import Feature from '@/components/Sections/Feature.vue'
 import Feature_2 from '@/components/Sections/Feature_2.vue'
 import Group from '@/components/Sections/Group.vue'
 import Hero from '@/components/Sections/Hero.vue'
+import Intergration from '@/components/Sections/Intergrations.vue'
 import Template from '@/components/Sections/Template.vue'
 
 
@@ -31,6 +33,7 @@ export default {
     Feature_2,
     Group,
     Hero,
+    Intergration,
     Template
   }
 }
