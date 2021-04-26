@@ -13,6 +13,7 @@
      </div>
       <p class="text-lg leading-6 font-normal ">{{description}}</p>
   </div>
+  
 </template>
 
 <script>

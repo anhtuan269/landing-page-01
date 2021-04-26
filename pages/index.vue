@@ -8,6 +8,7 @@
     <Feature />
     <Feature_2 />
     <Intergration />
+    <CTA />
     <Group />
  </div>
 </template>
@@ -16,6 +17,7 @@
 import About from '@/components/Sections/Tab.vue'
 import Benifit from '@/components/Sections/Benifit.vue'
 import Benifit_2 from '@/components/Sections/Benifit-2.vue'
+import CTA from '@/components/Sections/CTA.vue'
 import Feature from '@/components/Sections/Feature.vue'
 import Feature_2 from '@/components/Sections/Feature_2.vue'
 import Group from '@/components/Sections/Group.vue'
@@ -29,6 +31,7 @@ export default {
     About,
     Benifit,
     Benifit_2,
+    CTA,
     Feature,
     Feature_2,
     Group,

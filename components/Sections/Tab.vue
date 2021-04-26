@@ -129,10 +129,10 @@
         </li>
         <li
           @click="activeTab = 'TabE'"
-          class="flex group hover:text-blue-600 justify-start items-center cursor-pointer"
+          class="flex group hover:text-blue-600 justify-start items-center cursor-pointer active-menu"
         >
           <img src="@/static/images/tab-5.png" alt="" />
-          <p class="group-focus: ml-4 text-xl text-blue-600">
+          <p class="group-focus: ml-4 text-xl">
             Carousel gallery
           </p>
         </li>
@@ -148,6 +148,7 @@ import TabC from "@/components/Tab/TabC.vue";
 import TabD from "@/components/Tab/TabD.vue";
 import TabE from "@/components/Tab/TabE.vue";
 export default {
+  name:'TAb',
   components: {
     TabA,
     TabB,
@@ -171,4 +172,8 @@ export default {
 </script>
 
 <style>
+.active-menu {
+  @apply text-red-600
+    ;
+}
 </style>
